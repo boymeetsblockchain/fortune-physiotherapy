@@ -8,13 +8,13 @@ const services = [
     title: "Stroke Rehabilitation",
     description:
       "We help survivors regain skills through physical, occupational, and speech therapy, enhancing mobility, communication, and daily function.",
-    image: "/service1.jpg", // Replace with actual image path
+    image: "/service7.jpg", // Replace with actual image path
   },
   {
     title: "Home Physiotherapy",
     description:
       "Providing you with personalized therapy at home to improving mobility, strength, and independence through tailored exercises and functional activities.",
-    image: "/service2.jpg", // Replace with actual image path
+    image: "/service6.jpg", // Replace with actual image path
   },
 
   {
@@ -27,7 +27,7 @@ const services = [
     title: "Post-Surgical Rehabilitation",
     description:
       "Post-surgical rehabilitation facilitates recovery with personalized therapies, enhancing strength, mobility, and function, while reducing pain and preventing complications.",
-    image: "/service3.jpg", // Replace with actual image path
+    image: "/service8.jpg", // Replace with actual image path
   },
   {
     title: "General Fitness",
@@ -71,12 +71,13 @@ export const Services = () => {
               width={400}
               height={250}
               className="w-full h-52 object-cover"
+              priority
             />
             <div className="p-6">
               <h3 className="text-xl font-semibold text-gray-800 mb-4">
                 {service.title}
               </h3>
-              <p className="text-gray-600 text-justify leading-relaxed">
+              <p className="text-gray-600 text-left text-sm md:text-base leading-relaxed">
                 {service.description}
               </p>
             </div>

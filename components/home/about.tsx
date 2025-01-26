@@ -36,7 +36,7 @@ const AboutPage = () => {
           transition={{ duration: 1 }}
           className="space-y-6 text-justify"
         >
-          <h2 className="text-2xl font-semibold text-gray-800">
+          <h2 className="text-2xl text-left font-semibold text-gray-800">
             About Fortune Physiotherapy Clinic
           </h2>
           <p className="text-gray-700 leading-relaxed">
@@ -72,6 +72,7 @@ const AboutPage = () => {
               alt="Therapeutic Gymnasium"
               width={500}
               height={300}
+              priority
               className="rounded-lg shadow-lg mx-auto"
             />
           </div>

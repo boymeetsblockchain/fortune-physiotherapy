@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { Phone, Mail } from "lucide-react"; // Importing icons from lucide-react
 
 export const Footer = () => {
   return (
@@ -16,12 +17,6 @@ export const Footer = () => {
               or Idia College Back Gate, Benin City, Edo State, Nigeria.
             </p>
             <p className="mt-2 text-sm">
-              Phone:{" "}
-              <a href="tel:+2348035027408" className="underline">
-                08035027408
-              </a>
-            </p>
-            <p className="mt-2 text-sm">
               <a
                 href="https://maps.app.goo.gl/esnBfPu2QZpTA2AdA"
                 target="_blank"
@@ -31,6 +26,37 @@ export const Footer = () => {
                 View on Google Maps
               </a>
             </p>
+          </div>
+
+          {/* Right Section - Contact Info */}
+          <div className="flex flex-col items-center md:items-end text-center md:text-right w-full md:w-1/2 lg:w-1/3 mt-8 md:mt-0">
+            <div className="flex items-center space-x-3">
+              <Phone size={20} className="text-blue-400" />
+              <a
+                href="tel:+2348035027408"
+                className="text-sm text-white hover:underline"
+              >
+                08035027408
+              </a>
+            </div>
+            <div className="flex items-center space-x-3 mt-4">
+              <Phone size={20} className="text-blue-400" />
+              <a
+                href="tel:+2348071754487"
+                className="text-sm text-white hover:underline"
+              >
+                08071754487
+              </a>
+            </div>
+            <div className="flex items-center space-x-3 mt-4">
+              <Mail size={20} className="text-blue-400" />
+              <a
+                href="mailto:kayode.oke@fortunephysiotherapyclinic.com.ng"
+                className="text-sm text-white hover:underline"
+              >
+                kayode.oke@fortunephysiotherapyclinic.com.ng
+              </a>
+            </div>
           </div>
         </div>
 
