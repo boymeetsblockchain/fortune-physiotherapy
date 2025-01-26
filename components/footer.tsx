@@ -57,6 +57,15 @@ export const Footer = () => {
                 kayode.oke@fortunephysiotherapyclinic.com.ng
               </a>
             </div>
+            <div className="flex items-center space-x-3 mt-4">
+              <Mail size={20} className="text-blue-400" />
+              <a
+                href="mailto:fortunephysiotherapy@gmail.com"
+                className="text-sm text-white hover:underline"
+              >
+                fortunephysiotherapy@gmail.com
+              </a>
+            </div>
           </div>
         </div>
 
