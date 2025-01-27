@@ -21,7 +21,7 @@ const services = [
     title: "Musculoskeletal Conditions",
     description:
       "We treat musculoskeletal conditions with tailored therapies to alleviate pain, improve mobility, and restore function for bones, muscles, and joints.",
-    image: "/service4.jpg", // Replace with actual image path
+    image: "/service10.jpg", // Replace with actual image path
   },
   {
     title: "Post-Surgical Rehabilitation",
@@ -33,7 +33,7 @@ const services = [
     title: "General Fitness",
     description:
       "Achieve your fitness goals with personalized training programs, expert guidance, and motivational support to enhance strength, endurance, and overall health.",
-    image: "/service5.jpg", // Replace with actual image path
+    image: "/service11.jpg", // Replace with actual image path
   },
 ];
 

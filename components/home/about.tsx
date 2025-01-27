@@ -39,13 +39,13 @@ const AboutPage = () => {
           <h2 className="text-2xl text-left font-semibold text-gray-800">
             About Fortune Physiotherapy Clinic
           </h2>
-          <p className="text-gray-700 leading-relaxed">
+          <p className="text-gray-700  text-left leading-relaxed">
             Established in 1998 by Professor Kayode Oke, Fortune Physiotherapy
             Clinic is a purpose-built facility with state-of-the-art equipment
             comparable to those in the developed world. The clinic features
             eight treatment suites and a well-equipped therapeutic gymnasium.
           </p>
-          <p className="text-gray-700 leading-relaxed">
+          <p className="text-gray-700 text-left leading-relaxed">
             We are known for our professionalism, evidence-based practice, and
             comprehensive services in specialties such as orthopaedics,
             neurology, paediatrics, geriatrics, and health promotion. Our clinic
