@@ -21,7 +21,7 @@ const AboutPage = () => {
           transition={{ duration: 1 }}
         >
           <Image
-            src="/oke.png" // Replace with actual image path
+            src="/oke.jpg" // Replace with actual image path
             alt="Fortune Physiotherapy Clinic"
             width={500}
             height={300}

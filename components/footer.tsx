@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { Phone, Mail } from "lucide-react"; // Importing icons from lucide-react
+import { Phone, Mail, Facebook, Instagram } from "lucide-react"; // Importing icons from lucide-react
 
 export const Footer = () => {
   return (
@@ -64,6 +64,16 @@ export const Footer = () => {
                 className="text-sm text-white hover:underline"
               >
                 fortunephysiotherapy@gmail.com
+              </a>
+            </div>
+            <div className="flex flex-row items-center  gap-x-5 mt-4">
+              <a href="https://www.facebook.com/profile.php?id=100063786870577">
+                {" "}
+                <Facebook />
+              </a>
+              <a href="https://www.instagram.com/fortune_physiotherapy_clinic?igsh=MWczbTVrM2owcXZpZA==">
+                {" "}
+                <Instagram />
               </a>
             </div>
           </div>

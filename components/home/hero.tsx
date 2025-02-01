@@ -29,8 +29,8 @@ export const HeroSection = async () => {
             "text-xl md:text-3xl lg:text-4xl text-white uppercase font-medium mb-6"
           )}
         >
-          A leading private physiotherapy facility in Benin City, Edo State,
-          Nigeria.
+          A leading private physiotherapy facility in Nigeria located in Benin
+          city,Edo state
         </h2>
 
         {/* CTA Button */}
