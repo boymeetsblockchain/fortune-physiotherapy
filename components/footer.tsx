@@ -51,10 +51,10 @@ export const Footer = () => {
             <div className="flex items-center space-x-3 mt-4">
               <Mail size={20} className="text-blue-400" />
               <a
-                href="mailto:kayode.oke@fortunephysiotherapyclinic.com.ng"
+                href="mailto:kayode.oke@fortunephysiotherapy.com.ng"
                 className="text-sm text-white hover:underline"
               >
-                kayode.oke@fortunephysiotherapyclinic.com.ng
+                kayode.oke@fortunephysiotherapy.com.ng
               </a>
             </div>
             <div className="flex items-center space-x-3 mt-4">

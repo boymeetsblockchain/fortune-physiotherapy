@@ -36,7 +36,7 @@ const AboutPage = () => {
           transition={{ duration: 1 }}
           className="space-y-6 text-justify"
         >
-          <h2 className="text-2xl text-left font-semibold text-gray-800">
+          <h2 className="text-2xl text-center font-semibold text-gray-800">
             About Fortune Physiotherapy Clinic
           </h2>
           <p className="text-gray-700  text-left leading-relaxed">
@@ -76,7 +76,7 @@ const AboutPage = () => {
               className="rounded-lg shadow-lg mx-auto"
             />
           </div>
-          <div className="space-y-4 text-justify">
+          <div className="space-y-4 text-left">
             <p className="text-gray-700 leading-relaxed">
               Fortune Physiotherapy Clinic is a pioneer in the south-south
               geopolitical zone and was the first private physiotherapy clinic
@@ -105,7 +105,7 @@ const AboutPage = () => {
         <h2 className="text-2xl font-semibold text-gray-800 text-center">
           Our Facility and Operating Hours
         </h2>
-        <p className="text-gray-700 text-justify max-w-4xl mx-auto leading-relaxed">
+        <p className="text-gray-700 text-left max-w-4xl mx-auto leading-relaxed">
           Fortune Physiotherapy Clinic operates Monday to Friday from 8:00 AM to
           6:00 PM and on Saturdays from 8:00 AM to 3:00 PM. Our facility is
           equipped with a solar-powered system to ensure uninterrupted power for
