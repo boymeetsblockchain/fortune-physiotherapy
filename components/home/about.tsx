@@ -78,12 +78,12 @@ const AboutPage = () => {
           </div>
           <div className="space-y-4 text-left">
             <p className="text-gray-700 leading-relaxed">
-              Fortune Physiotherapy Clinic is a pioneer in the south-south
-              geopolitical zone and was the first private physiotherapy clinic
-              accredited for internship training in Nigeria. We collaborate with
-              occupational therapists, orthotics and prosthetics specialists,
-              speech therapists, physicians, and surgeons to provide holistic
-              care for our patients.
+              Fortune Physiotherapy Cliinic is a pioneer in the south-south
+              geopolitical zone and was the first physiotherapy clinic in
+              Nigeria to be accredited for internship training in Physiotherapy.
+              We collaborate with occupational therapists, orthotics and
+              prosthetics specialists, speech therapists, physicians, and
+              surgeons to provide holistic care for our patients.
             </p>
             <p className="text-gray-700 leading-relaxed">
               Our clinic has retainerships with prominent healthcare facilities,
