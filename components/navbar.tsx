@@ -94,7 +94,13 @@ export const Navbar = () => {
           >
             <div className="flex flex-col h-full">
               {/* Mobile Menu Header */}
-              <Image src="/logo.jpg" height={40} width={40} alt="logo" />
+              <Image
+                src="/logo.jpg"
+                height={40}
+                width={40}
+                alt="logo"
+                className="mx-auto my-2"
+              />
 
               {/* Mobile Menu Items */}
               <ul className="flex-1 flex flex-col space-y-4 text-gray-600 dark:text-gray-300 px-4">

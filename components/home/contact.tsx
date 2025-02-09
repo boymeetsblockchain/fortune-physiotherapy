@@ -8,6 +8,8 @@ const Contact = () => {
     name: "",
     email: "",
     phone: "",
+    instagram: "",
+    address: "",
     message: "",
   });
 
@@ -22,7 +24,14 @@ const Contact = () => {
     e.preventDefault();
     console.log("Form Data Submitted:", formData);
     // Reset form after submission (optional)
-    setFormData({ name: "", email: "", phone: "", message: "" });
+    setFormData({
+      name: "",
+      email: "",
+      phone: "",
+      instagram: "",
+      address: "",
+      message: "",
+    });
   };
 
   return (
@@ -84,7 +93,7 @@ const Contact = () => {
         {/* Phone */}
         <div>
           <label className="block text-sm font-medium text-gray-700 mb-1">
-            Whatsapp Phone Number
+            WhatsApp Phone Number
           </label>
           <input
             type="tel"
@@ -96,28 +105,32 @@ const Contact = () => {
             required
           />
         </div>
+
+        {/* Instagram Handle */}
         <div>
           <label className="block text-sm font-medium text-gray-700 mb-1">
-            Instagram handle
+            Instagram Handle
           </label>
           <input
-            type="tel"
-            name="phone"
-            value={formData.phone}
+            type="text"
+            name="instagram"
+            value={formData.instagram}
             onChange={handleChange}
             className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
             placeholder="Enter your Instagram handle"
             required
           />
         </div>
+
+        {/* Home Address */}
         <div>
           <label className="block text-sm font-medium text-gray-700 mb-1">
             Home Address
           </label>
           <input
-            type="tel"
-            name="phone"
-            value={formData.phone}
+            type="text"
+            name="address"
+            value={formData.address}
             onChange={handleChange}
             className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
             placeholder="Enter your Home Address"
@@ -128,14 +141,14 @@ const Contact = () => {
         {/* Message */}
         <div>
           <label className="block text-sm font-medium text-gray-700 mb-1">
-            Patient's Complain
+            Patient's Complaint
           </label>
           <textarea
             name="message"
             value={formData.message}
             onChange={handleChange}
             className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-            placeholder="Enter your  Complain"
+            placeholder="Enter your complaint"
             rows={5}
             required
           ></textarea>

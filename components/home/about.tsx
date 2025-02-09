@@ -68,7 +68,7 @@ const AboutPage = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
           <div>
             <Image
-              src="/gallery2.jpg" // Replace with actual image path
+              src="/gallery3.jpg" // Replace with actual image path
               alt="Therapeutic Gymnasium"
               width={500}
               height={300}
